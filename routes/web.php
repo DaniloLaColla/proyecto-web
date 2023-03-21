@@ -24,10 +24,6 @@ Route:: get('main/comprar', function (){
     return "Aca vendemos productos";
 });
 */
-// main/merca
-// main/pastillas
-// etc
-
 Route:: get('main/{producto}', function ($producto){
     return "Aca vendemos: $producto";
 });
